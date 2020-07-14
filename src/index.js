@@ -43,8 +43,8 @@ class Library extends React.Component {
             document.getElementById("Author").value = "";
             let pagesIn = document.getElementById("Pages").value;
             document.getElementById("Pages").value = "";
-            let readIn = document.getElementById("Read_Not Read").value;
-            document.getElementById("Read_Not Read").value = "";
+            let readIn = document.getElementById("Read/Not Read").value;
+            document.getElementById("Read/Not Read").value = "";
 
             list.push([titleIn, authorIn, pagesIn, readIn]);
             this.setState((state) => ({
